@@ -1,0 +1,31 @@
+/* styles.css */
+
+.white-button {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .white-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .purple-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .purple-button:hover {
+    background-color: #800080;
+  }
+  

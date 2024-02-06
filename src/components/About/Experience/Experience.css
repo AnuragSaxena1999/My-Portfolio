@@ -1,0 +1,57 @@
+/* styles.css */
+
+.experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .experience-card {
+    border: 1.7px solid rgba(200, 137, 230, 0.637);
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    transition: all 0.4s ease 0s;
+
+   
+  
+    /* Responsive Styling */
+    @media (min-width: 600px) {
+      width: calc(50% - 20px); /* Two cards in a row with a small gap */
+    }
+  
+    @media (min-width: 768px) {
+      width: calc(50% - 20px); /* Two cards in a row with a small gap */
+    }
+  
+    @media (min-width: 1024px) {
+      width: calc(50% - 20px); /* Two cards in a row with a small gap */
+    }
+  }
+  
+  .experience-content {
+    flex: 1;
+  }
+  
+  .experience-image {
+    margin-left: 20px;
+    /* flex-shrink: 0;  */
+    /* Ensure the image doesn't shrink */
+  }
+  
+  .experience-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .experience-card:hover {
+    transform: scale(1.05) !important;
+   
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}

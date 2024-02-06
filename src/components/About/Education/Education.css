@@ -1,0 +1,44 @@
+/* styles.css */
+
+.education-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    /* box-shadow: 10px 10px white; */
+  }
+  .education-card:hover{
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  }
+  
+  .education-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    border: 1.7px solid rgba(200, 137, 230, 0.637);
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  }
+  
+  .education-content {
+    flex: 1;
+  }
+  
+  /* .education-image {
+    margin-left: 0px;
+  } */
+  
+  .education-image {
+    width: 110px;
+    height: 15-0px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    font-size: 80px;
+    
+  }
+
+  
