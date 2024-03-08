@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Contact from "./components/Contact1/Contact";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   BrowserRouter as Router,
   Route,

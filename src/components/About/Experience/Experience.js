@@ -26,7 +26,7 @@ const Experience = () => {
   return (
     <div className="experience-cards">
       {experienceData.map((experience) => (
-        <div key={experience.id} className="experience-card">
+        <div key={experience.id} className="experience-card" data-aos="fade-up">
           <div className="experience-content">
             <h3>{experience.company}</h3>
             <p>{experience.position}</p>

@@ -16,7 +16,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} data-aos="fade-right" className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -46,7 +46,7 @@ function Home2() {
               
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} data-aos="fade-left" className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -54,12 +54,12 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <h1 data-aos="fade-down">FIND ME ON</h1>
+            <p data-aos="fade-down">
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              <li className="social-icons" data-aos="fade-up" data-aos-delay='500'>
                 <a
                   href="https://github.com/AnuragSaxena1999?tab=repositories"
                   target="_blank"
@@ -70,7 +70,7 @@ function Home2() {
                 </a>
                
               </li>
-              <li className="social-icons">
+              <li className="social-icons" data-aos="fade-up" data-aos-delay='1000'>
                 <a
                   href="https://leetcode.com/AnuragSaxena/"
                   target="_blank"
@@ -80,7 +80,7 @@ function Home2() {
                   <SiLeetcode />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons" data-aos="fade-up" data-aos-delay='1500'>
                 <a
                   href="https://www.hackerrank.com/profile/anurag1705094"
                   target="_blank"
@@ -93,7 +93,7 @@ function Home2() {
               </li>
               
              
-              <li className="social-icons">
+              <li className="social-icons" data-aos="fade-up" data-aos-delay='2000'>
                 <a
                   href="https://www.linkedin.com/in/anurag-saxena-7257001b1/"
                   target="_blank"
@@ -103,7 +103,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons" data-aos="fade-up" data-aos-delay='2500'>
                 <a
                   href="https://www.instagram.com/saxenaanurag133?utm_source=qr&igsh=bTh1N2Rlbm1xdmd3 "
                   target="_blank"

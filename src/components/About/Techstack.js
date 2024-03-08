@@ -31,39 +31,39 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='1000'>
         <DiHtml5 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='1500'>
         <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='2000'>
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='2500'>
         <DiBootstrap />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='3000'>
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='3500'>
         <TbBrandRedux/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='4000'>
         <SiMysql />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='4500'>
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='5000'>
         <FaGithub/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='5500'>
         <DiLinux />
       </Col>
       

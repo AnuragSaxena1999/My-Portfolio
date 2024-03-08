@@ -20,7 +20,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='100'>
             <ProjectCard
               imgPath={movix}
               isBlog={false}
@@ -31,7 +31,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='400'>
             <ProjectCard
               imgPath={hometuition}
               isBlog={false}
@@ -42,7 +42,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='700'>
             <ProjectCard
               imgPath={suryajewellery}
               isBlog={false}
@@ -53,7 +53,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="fade-up" >
             <ProjectCard
               imgPath={biing}
               isBlog={false}
@@ -64,7 +64,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='400'>
             <ProjectCard
               imgPath={offcampus}
               isBlog={false}
@@ -74,14 +74,9 @@ function Projects() {
               demoLink="https://offcampusnikalenge.vercel.app/"
             />
           </Col>
-
-          
-
-          
         </Row>
       </Container>
     </Container>
   );
 }
-
 export default Projects;

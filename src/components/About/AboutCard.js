@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p data-aos="fade-right" data-aos-delay='100' style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Anurag Saxena </span>
             from <span className="purple"> New Delhi, India.</span>
             <br />
@@ -20,13 +20,13 @@ function AboutCard() {
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity">
+            <li className="about-activity" data-aos="fade-right" data-aos-delay='700'>
               <ImPointRight /> Playing Cricket
             </li>
-            <li className="about-activity">
+            <li className="about-activity" data-aos="fade-right" data-aos-delay='900'>
               <ImPointRight /> Teaching
             </li>
-            <li className="about-activity">
+            <li className="about-activity" data-aos="fade-right" data-aos-delay='1100'>
               <ImPointRight /> Travelling
             </li>
           </ul>

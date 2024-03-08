@@ -35,7 +35,7 @@ const EducationCard = () => {
   return (
     <div className="education-cards">
       {educationData.map((education) => (
-        <div key={education.id} className="education-card">
+        <div key={education.id} className="education-card" data-aos="fade-up">
           <div className="education-content">
             <h3 >{education.institution}</h3>
             <strong><p className='purple'>{education.degree}</p></strong>
