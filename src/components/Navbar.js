@@ -99,7 +99,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             
-             <Nav.Item data-aos="fade-down"  data-aos-delay='3000'>
+            <Nav.Item data-aos="fade-down"  data-aos-delay='3000'>
               <Nav.Link
                 as={Link}
                 to="/contact"
@@ -110,7 +110,6 @@ function NavBar() {
                   
                 }
                 }
-                
               >
                 <BsTelephone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
