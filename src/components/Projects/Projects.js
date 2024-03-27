@@ -7,6 +7,9 @@ import hometuition from "../../Assets/Projects/hometuition.jpg";
 import movix from "../../Assets/Projects/movix.jpg";
 import biing from "../../Assets/Projects/biing.jpg";
 import offcampus from "../../Assets/Projects/offcampus.jpg"
+import QuizApp from "../../Assets/Projects/QuizApp.jpg"
+import WeatherApp from "../../Assets/Projects/Weather-App.jpg"
+import Password from "../../Assets/Projects/Pswdgenrtr.jpg";
 
 function Projects() {
   return (
@@ -72,6 +75,36 @@ function Projects() {
               description="A ReactJS project provides a seamless platform for users to stay updated with daily job postings. Leveraging modern web technologies, users can access a user-friendly interface to browse through a curated list of job opportunities."
               ghLink="https://github.com/AnuragSaxena1999/OffcampusNikalenge"
               demoLink="https://offcampusnikalenge.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='700'>
+            <ProjectCard
+              imgPath={QuizApp}
+              isBlog={false}
+              title="Quiz App"
+              description="Developed a captivating quiz application using HTML, CSS, and JavaScript, showcasing strong front-end development skills and JavaScript concepts."
+              ghLink="https://github.com/AnuragSaxena1999/Quiz-App"
+              demoLink="https://quiz-app-anurag.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card" data-aos="fade-up" >
+            <ProjectCard
+              imgPath={WeatherApp}
+              isBlog={false}
+              title="Weather-App"
+              description="Weather App provides real-time weather updates with a clean and intuitive interface. Built using HTML, CSS, and JavaScript, it seamlessly integrates with a weather API to deliver accurate forecasts. With responsive design, it offers a smooth experience across devices."
+              ghLink="https://github.com/AnuragSaxena1999/Weather-App"
+              demoLink="https://weather-app-anurag.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card" data-aos="fade-up" data-aos-delay='400' >
+            <ProjectCard
+              imgPath={Password}
+              isBlog={false}
+              title="Password-Generator"
+              description="Password generator project, developed with React.js and its powerful hooks. This application generates secure passwords tailored to user preferences, such as length and character types. With the flexibility of React hooks, it ensures efficient state management and dynamic user interactions."
+              ghLink="https://github.com/AnuragSaxena1999/Password-Generator"
+              demoLink="https://password-generator-anurag.vercel.app/"
             />
           </Col>
         </Row>
