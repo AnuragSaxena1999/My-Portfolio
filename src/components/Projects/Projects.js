@@ -27,7 +27,7 @@ function Projects() {
               title="Movix"
               description="Web based application in which Users can easily search for movies and obtain relevant information such as title, release year, genre, and a brief description with dyanamic and responsive user interface . The integration of a movie database or API allows real-time data retrieval, ensuring that users have access to up-to-date information about their favorite movies."
               ghLink="https://github.com/AnuragSaxena1999/Movix"
-              demoLink="https://movix-omega-weld.vercel.app/"
+              demoLink="https://movie-app-anurag.vercel.app/"
             />
           </Col>
 
