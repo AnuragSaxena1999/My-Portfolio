@@ -3,7 +3,7 @@
 import React from 'react';
 import "./Education.css";
 import { IoSchoolOutline } from "react-icons/io5";
-import myImg1 from "../../Assets/logo.jpg";
+
 
 const EducationCard = () => {
   const educationData = [
