@@ -11,7 +11,7 @@ const EducationCard = () => {
       institution: 'Bharati Vidyapeeth\'s Institute of Computer Applications',
       degree: 'Master Of Computer Application',
       year: '2021 - 2023',
-      imageSrc: 'https://placekitten.com/150/150',
+      imageSrc: 'C:\Users\Anurag Saxena\OneDrive\Documents\Projects\portfolio\My-Portfolio\src\Assets\logo.jpg',
       score:85 // Replace with your image URL
     },
     {

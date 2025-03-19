@@ -26,7 +26,8 @@ import {
   SiSolidity,
   SiPostgresql,
   SiMysql,
-  SiJira 
+  SiJira ,
+  SiVisualstudiocode
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -76,6 +77,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='5500'>
         <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='5500'>
+        <SiVisualstudiocode />
       </Col>
       
      

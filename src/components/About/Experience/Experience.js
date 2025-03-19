@@ -10,14 +10,14 @@ const Experience = () => {
     {
       id: 1,
       company: 'Logyify India',
-      position: 'React Developer',
-      year: 'Jan 2024 - Present',
+      position: 'Software Tester',
+      year: 'Jan 2024 - Feb 2025',
       imageSrc: logyify
     },
     {
       id: 2,
       company: 'Comviva',
-      position: 'Software Engineer Intern',
+      position: 'Manual Testing Intern',
       year: 'Aug 2023 - Dec 2023',
       imageSrc: comviva , 
     },
