@@ -3,6 +3,7 @@
 import React from 'react';
 import "./Education.css";
 import { IoSchoolOutline } from "react-icons/io5";
+import myImg1 from "../../Assets/logo.jpg";
 
 const EducationCard = () => {
   const educationData = [
@@ -11,7 +12,7 @@ const EducationCard = () => {
       institution: 'Bharati Vidyapeeth\'s Institute of Computer Applications',
       degree: 'Master Of Computer Application',
       year: '2021 - 2023',
-      imageSrc: 'C:\Users\Anurag Saxena\OneDrive\Documents\Projects\portfolio\My-Portfolio\src\Assets\logo.jpg',
+      imageSrc: {myImg1},
       score:85 // Replace with your image URL
     },
     {
@@ -44,7 +45,7 @@ const EducationCard = () => {
           </div>
           <div className="education-image">
           <IoSchoolOutline />
-            {/* <img src={education.imageSrc} alt={`${education.institution} Logo`} /> */}
+            <img src={education.imageSrc} alt={`${education.institution} Logo`} />
           </div>
         </div>
       ))}
