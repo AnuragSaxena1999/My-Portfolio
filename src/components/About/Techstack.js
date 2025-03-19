@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { TbBrandRedux } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa6";
+import { SiSelenium } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -25,6 +26,7 @@ import {
   SiSolidity,
   SiPostgresql,
   SiMysql,
+  SiJira 
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -35,7 +37,10 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
-        <CgCPlusPlus />
+        <SiSelenium />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
+        <SiJira  />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
         <CgCPlusPlus />
