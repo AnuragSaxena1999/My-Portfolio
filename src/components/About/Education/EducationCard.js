@@ -12,7 +12,7 @@ const EducationCard = () => {
       institution: 'Bharati Vidyapeeth\'s Institute of Computer Applications',
       degree: 'Master Of Computer Application',
       year: '2021 - 2023',
-      imageSrc: {myImg1},
+      imageSrc: "https://placekitten.com/150/150",
       score:85 // Replace with your image URL
     },
     {
@@ -45,7 +45,7 @@ const EducationCard = () => {
           </div>
           <div className="education-image">
           <IoSchoolOutline />
-            <img src={education.imageSrc} alt={`${education.institution} Logo`} />
+            {/* <img src={education.imageSrc} alt={`${education.institution} Logo`} /> */}
           </div>
         </div>
       ))}
