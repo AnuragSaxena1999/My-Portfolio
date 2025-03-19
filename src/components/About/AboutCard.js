@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Anurag Saxena </span>
             from <span className="purple"> New Delhi, India.</span>
             <br />
-            I am currently employed as a <span className="purple">React Developer</span> at Logyify.
+            I am currently employed as a <span className="purple">Software Tester</span> at Logyify.
             <br />
             I have completed <span className="purple">MCA</span> at BVICAM , New Delhi.
             

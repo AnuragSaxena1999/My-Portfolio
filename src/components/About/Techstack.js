@@ -32,6 +32,12 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='500'>
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-aos="fade-up" data-aos-delay='1000'>
